@@ -1,0 +1,92 @@
+* {
+  margin:0;
+  padding: 0;
+}
+.header img {
+  width: 100px;
+}
+.navbar {
+  background-color: #000000;
+  padding: 20px;
+ 
+}
+.navbar a {
+  margin: 30px;
+  color: white;
+ text-decoration: none;
+font-size: 20px;
+text-transform: uppercase;
+line-height: 20px;
+
+}
+.container {
+  padding:0 15px;
+}
+.navbar a:hover {
+    color: salmon;
+}
+.carousel {
+  background-image: url(../img/slider_1.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+.best-seller > h1 {
+  text-align: center;
+  font-weight:500px;
+  margin: 50px 0px;
+}
+.best-seller .items {
+  float: left;
+  width:25%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  
+}
+.best-seller .items img {
+   width: 100%;
+}
+.best-seller .list {
+  margin:0 -15px;
+}
+.intro .left , .intro .right {
+ float: left;
+ width:50%;
+
+}
+.intro__list .left {
+  width:50%;
+}
+.intro__list .right {
+  width:50%;
+}
+.item__top {
+  float: left;
+  width: 50%;
+}
+.intro img {
+  width:100%;
+  display:block;
+}
+.banner img {
+  width: 100%;
+}
+.banner .content {
+  width:300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color:rgba(93, 013, 014, 0.5);
+  color:white;
+  text-align: center;
+}
+.banner {
+  position: relative;
+  padding-top: 40px;
+}
+.content {
+  position: absolute;
+  top:430px;
+  left: 280px;
+}
